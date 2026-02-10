@@ -1,0 +1,21 @@
+{
+  "name": "fcm-web-client-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/generate-firebase-config.cjs",
+    "dev": "vite",
+    "prebuild": "node scripts/generate-firebase-config.cjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "generate:firebase-config": "node scripts/generate-firebase-config.cjs"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}

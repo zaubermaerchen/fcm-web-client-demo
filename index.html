@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCM Client</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>FCM Push Notification Client</h1>
+      <p class="subtitle">
+        通知許可を行い、Firebase Cloud Messaging のトークンを取得します。
+      </p>
+      <button id="request-permission" type="button">通知を許可してトークン取得</button>
+      <section class="panel">
+        <h2>ステータス</h2>
+        <p id="status" class="status">準備完了</p>
+      </section>
+      <section class="panel">
+        <h2>FCMトークン</h2>
+        <pre id="token" class="token">未取得</pre>
+      </section>
+      <section class="panel">
+        <h2>受信ログ（フォアグラウンド）</h2>
+        <ul id="message-list" class="message-list"></ul>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
