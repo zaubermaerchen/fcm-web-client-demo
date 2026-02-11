@@ -4,7 +4,7 @@ Firebase Cloud Messaging (FCM) を使用したプッシュ通知Webクライア�
 
 ## 前提条件
 
-- Node.js (推奨: 最新のLTS版)
+- Node.js 20 以上
 - npm
 - Firebaseプロジェクト（Firebase Console で作成済みであること）
 
