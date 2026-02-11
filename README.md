@@ -1,6 +1,6 @@
 # FCM Web Client Demo
 
-Firebase Cloud Messaging (FCM) を使用したプッシュ通知Webクライアントのデモアプリケーション。
+GitHub Copilotにより作成されたFirebase Cloud Messaging (FCM) を使用したプッシュ通知Webクライアントのデモアプリケーション。
 
 ## 前提条件
 
