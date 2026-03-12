@@ -12,10 +12,10 @@
     "generate:firebase-config": "node scripts/generate-firebase-config.cjs"
   },
   "dependencies": {
-    "firebase": "^12.9.0"
+    "firebase": "^12.10.0"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "vite": "^7.3.1"
   }
 }
